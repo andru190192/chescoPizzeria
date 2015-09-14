@@ -1,0 +1,5 @@
+@import "componentes/menu";        // Ed menu
+
+.menu{
+  @include ed-menuh();
+}
