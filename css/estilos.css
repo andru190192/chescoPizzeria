@@ -3,6 +3,12 @@
 @import url(font-awesome.min.css);
 @import url(ed-grid.css);
 @font-face {
+   font-family: "Arial Black";
+   font-style: normal;
+   font-weight: normal;
+   src: url("../fonts/chesco/ArialBlack.ttf");
+}
+@font-face {
    font-family: "Champagne&LimousinesItalic";
    font-style: normal;
    font-weight: normal;
@@ -61,6 +67,28 @@ body{
   background: #cb2127 !important;
   font-size: 16px !important;
   color: #ffffff !important;
+}
+
+a{
+  text-decoration: none;
+}
+
+.letraIconos{
+  font-family: 'Arial Black';
+  font-size: 0.5em;
+}
+
+.margin-t-b-1em{
+  margin: 1em 0;
+}
+
+.letra-negro{
+  color: #000000;
+}
+
+a:hover{
+  color: black !important;
+  text-decoration: none !important;
 }
 
 .redesSociales, .redesSociales a{
@@ -127,9 +155,13 @@ ul.navbar-nav a{
 }
 
 .footer{
-  margin-top: 5em;
   font-family: "steelfisheb";
   font-size: 1.5em;
+}
+
+.desarrolladores{
+  font-family: "steelfisheb";
+  font-size: 0.9em;
 }
 
 @media screen and (min-width: 480px) {
