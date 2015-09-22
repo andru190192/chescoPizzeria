@@ -90,65 +90,28 @@
     </div>
   </div>
 
-<!-- Modales Menu -->
-<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-body">
-        <img src="img/menuPizzas.svg"/>
-      </div>
-    </div>
-  </div>
-</div>
-<div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-body">
-        <img src="img/pastas.svg"/>
-      </div>
-    </div>
-  </div>
-</div>
-<div class="modal fade" id="myModal3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-body">
-        <img src="img/ensaladas.svg"/>
-      </div>
-    </div>
-  </div>
-</div>
-<!-- Slider Imagenes -->
   <div class="grupo">
-    <div class="caja total m-b-1em">
-      <p class="propaganda">Las mejores pizzas del Sur del Pa&iacute;s</p>
-      <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-        <!-- Indicators -->
-        <ol class="carousel-indicators">
-          <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-          <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-          <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-          <li data-target="#carousel-example-generic" data-slide-to="3"></li>
-        </ol>
-
-        <!-- Wrapper for slides -->
-        <div class="carousel-inner" role="listbox">
-          <div class="item active">
-            <img src="img/slider0.png" alt="...">
-          </div>
-          <div class="item">
-            <img src="img/slider1.png" alt="...">
-          </div>
-          <div class="item">
-            <img src="img/slider2.png" alt="...">
-          </div>
-          <div class="item">
-            <img src="img/slider3.png" alt="...">
-          </div>
-        </div>
+    <div class="caja total">
+      <form role="form" action="send.php" method="post">
+      <div class="form-group" action="send.php" method="post">
+        <label for="nombre">Nombres</label>
+        <input id="nombre" type="text" name="nombre" class="form-control" placeholder="Ejemplo: Juan Perez" required title="Debe escribir su nombre" />
       </div>
+      <div class="form-group">
+        <label for="email">Correo Electronico</label>
+        <input id="email" type="email" name="email" class="form-control"
+               placeholder="Ejemplo: sucorreo@sudominio.com" required title="Debe ingresar un correo electronico">
+      </div>
+      <div class="form-group">
+        <label for="mensaje">Mensaje</label>
+        <textarea id="mensaje" name="mensaje" class="form-control" placeholder="Escriba aqui su mensaje" required required title="Debe escribir un mensaje"></textarea>
+      </div>
+
+      <button id="submit" type="submit" name="submit" class="btn btn-default">Enviar</button>
+    </form>
     </div>
   </div>
+
   <!-- Footer -->
   <div class="grupo centro-contenido movil-tabla abajo footer">
     <div class="caja total">
@@ -163,4 +126,4 @@
   <script src="js/jquery-1.11.3.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
   </body>
-</html>
+  </html>

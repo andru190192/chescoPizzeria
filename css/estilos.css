@@ -73,6 +73,34 @@ a{
   text-decoration: none;
 }
 
+.cabeceraMapa{
+  background-color: #A22330;
+  margin: 2em 0 !important;
+  padding: 0.5em 1em;
+}
+
+.tituloCabeceraMapa{
+  font-size: 3em;
+  font-weight: bold;
+  font-family: "steelfishbd";
+}
+
+.textoCabecera{
+  font-family: "steelfisheb";
+  font-size: 1.9em;
+  margin-bottom: 0;
+}
+
+.cabeceraMapa span{
+  float: right;
+  position: relative;
+  top: -40px;
+  font-weight: bold;
+  font-family: "steelfishbd";
+  font-size: 1.6em;
+  color: #000000;
+}
+
 .letraIconos{
   font-family: 'Arial Black';
   font-size: 0.5em;
@@ -157,11 +185,25 @@ ul.navbar-nav a{
 .footer{
   font-family: "steelfisheb";
   font-size: 1.5em;
+  margin-top: 2em;
 }
 
 .desarrolladores{
   font-family: "steelfisheb";
-  font-size: 0.9em;
+  font-size: 0.7em;
+}
+
+.copyRigth a {
+  color: #ffffff !important;
+}
+
+.texto-presentacion-tablet{
+    text-align: center !important;
+    padding-bottom: 2em;
+}
+
+.logo{
+  width: 100%;
 }
 
 @media screen and (min-width: 480px) {
@@ -172,6 +214,7 @@ ul.navbar-nav a{
 
   .propaganda{
     text-align: left;
+    margin: 0;
   }
 
   .texto-presentacion{
@@ -186,4 +229,8 @@ ul.navbar-nav a{
   .redesSociales span:first-child{
     padding-right: 1em;
   }
+}
+
+.logoTablet{
+  padding: 0.5em 0 2em 0;
 }
